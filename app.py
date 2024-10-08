@@ -115,3 +115,6 @@ def convert_video_to_pdf():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
+
+# To generate requirements.txt file, run the following command in your terminal:
+# pip freeze > requirements.txt
